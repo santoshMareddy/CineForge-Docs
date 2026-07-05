@@ -7,7 +7,7 @@ a dockable control panel: one-click Lumen quality setups, a crash-proofed Path
 Tracer mode, Movie Render Queue presets with Render Now, ACES color export, and
 real cinematic camera spawning.
 
-![CineForge — Lumen Cinematic viewport](Docs/Screenshots/01_Lumen_Cinematic_Viewport.png)
+![CineForge — Lumen, Render and Camera presets](Docs/Screenshots/CineForge_Presets.jpg)
 
 - **Engine support:** Unreal Engine **5.4 → 5.8** — every version compile-verified, prebuilt binaries included for all five
 - **Platform:** Windows editor (DirectX 12)
@@ -165,12 +165,14 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" /v TdrDelay /t R
 
 ## Screenshots
 
-| | |
-|---|---|
-| ![Lumen menu](Docs/Screenshots/02_CineForge_Menu_Lumen.png) | ![Movie Render Queue menu](Docs/Screenshots/03_CineForge_Menu_MRQ.png) |
-| ⚡ **Lumen HQ** presets | 🎬 **Movie Render Queue** |
-| ![Camera menu](Docs/Screenshots/04_CineForge_Menu_Camera.png) | ![Control panel](Docs/Screenshots/05_Control_Panel.png) |
-| 📷 **Cinematic Cameras** | 🎛 **Control Panel** |
+![CineForge presets — Lumen, Render and Camera menus](Docs/Screenshots/CineForge_Presets.jpg)
+*⚡ Lumen HQ · 🎬 Movie Render Queue · 📷 Cinematic Cameras — everything behind one toolbar button*
+
+![ACES export — easy setup](Docs/Screenshots/ACES_Easy_Setup.jpg)
+*🎨 One-toggle ACES (ACEScg) export — EXRs that DaVinci Resolve and Nuke read directly*
+
+![Without CineForge vs With CineForge](Docs/Screenshots/Before_After.png)
+*Same scene, same asset — only the lighting preset changed*
 
 ---
 
