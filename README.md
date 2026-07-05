@@ -20,6 +20,14 @@ prebuilt binaries for UE 5.4, 5.5, 5.6, 5.7 and 5.8. Install straight to your
 engine from the Epic Games Launcher — no compiler needed. See
 [INSTALLATION.md](INSTALLATION.md) for the 60-second quick start.
 
+### 🎬 See the difference
+
+One click applies a curated **Lumen HQ [Cinematic]** setup — better global
+illumination, richer contrast, cleaner shadows. Same scene, same asset, only the
+preset changed:
+
+![Without CineForge vs With CineForge](Docs/Screenshots/Before_After.png)
+
 ---
 
 ## Installation
