@@ -155,6 +155,11 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" /v TdrDelay /t R
   restart prompt; CineForge configures DX12 + SM6 + RT for you.
 - **Viewport won't enter Path Tracing** — the PT shaders compile at editor
   startup. Accept the restart prompt after applying the Path Traced preset once.
+- **Scene looks too bright after enabling the plugin** — the Lumen presets
+  switch the exposure **Metering Mode from Manual to Auto**, which can
+  overbrighten some scenes. Select the PostProcessVolume, under
+  **Lens → Exposure** set **Metering Mode** back to **Manual**, then dial in
+  your desired **Exposure Compensation** value.
 - **`RunUAT BuildPlugin` fails on an unrelated plugin** — that engine-wide build
   mode validates *every* installed plugin; a binary-only marketplace plugin
   breaks it. Install CineForge as a **project** plugin instead (a normal project
