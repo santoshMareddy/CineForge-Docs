@@ -116,6 +116,11 @@ version. In order of convenience:
   restart prompt; CineForge fixes the project settings for you.
 - **Path Tracing view won't activate** → accept the restart prompt after applying
   the Path Traced preset once (PT shaders compile at editor startup).
+- **Why does my scene look too bright after enabling the plugin?** → the Lumen
+  presets switch the exposure **Metering Mode from Manual to Auto**, which can
+  overbrighten some scenes. Fix: select the PostProcessVolume, under
+  **Lens → Exposure** set **Metering Mode** back to **Manual**, then dial in your
+  desired **Exposure Compensation** value.
 - **Laptop GPU driver resets during path tracing** → raise the Windows GPU
   watchdog (run as admin, then reboot):
   `reg add "HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers" /v TdrDelay /t REG_DWORD /d 60 /f`
